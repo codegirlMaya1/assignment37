@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="openbtn" onclick="openNav()">☰ Menu</span>
+            <h1>My Website</h1>
+        </nav>
+    </header>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><a href="https://th.bing.com/th?id=OIP.O3R1jW25OfgmgX6rKKnDSwHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2 ">
+                <img src="https://th.bing.com/th?id=OIP.O3R1jW25OfgmgX6rKKnDSwHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" />
+                </a> </div>
+            <div class="slide"><a href="https://th.bing.com/th?id=OIP.PxQTrlDMz7LyYUtrRichxQHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2 ">
+                <img src="https://th.bing.com/th?id=OIP.PxQTrlDMz7LyYUtrRichxQHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" />
+                </a> </div>
+            <div class="slide">
+                <a href="https://th.bing.com/th/id/OIP.28_4k3BrEkgM5IWZhtjvVwHaEK?w=325&h=183&c=7&r=0&o=5&pid=1.7">
+                    <img src="https://th.bing.com/th/id/OIP.28_4k3BrEkgM5IWZhtjvVwHaEK?w=325&h=183&c=7&r=0&o=5&pid=1.7" />
+                    </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <h2> HOVER BELOW</h2>
+            <p id="myParagraph">Hover over this paragragh to change its style. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta assumenda modi doloribus totam quod enim temporibus, eum obcaecati a numquam necessitatibus suscipit vel similique dolorum, at, corporis voluptates quis doloremque!</p> </div>
+        <div class="column">
+            <div class="input-wrapper">
+                <input class="input-box" type="text" placeholder="Click me 1">
+                <input class="input-box" type="text" placeholder="Click me 2">
+                <input class="input-box" type="text" placeholder="Click me 3">
+            </div>
+        </div>
+        <div class="column">
+            <h2> Hi! Hover Here</h2>
+            <img id="myImage" class="image" src="flower.png" alt="Default Image" width="300"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

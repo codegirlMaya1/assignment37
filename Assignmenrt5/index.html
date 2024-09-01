@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Mouse Over Example</h2>
+<p>Move the mouse over the text below:</p>
+
+<p id="demo" onmouseover="mouseOver()">Mouse over me!</p>
+
+<script>
+function mouseOver() {
+  document.getElementById("demo").style.color = "red";
+}
+</script>
+
+<h2>Button Click Example</h2>
+<button onclick="buttonClick()">Click me</button>
+
+<script>
+function buttonClick() {
+  alert("Button was clicked!");
+}
+</script>
+
+<h2>Focus Event Example</h2>
+<input type="text" id="myInput" onfocus="focusFunction()">
+
+<script>
+function focusFunction() {
+  document.getElementById("myInput").style.backgroundColor = "yellow";
+}
+</script>
+
+
+</body>
+</html>
